@@ -1,7 +1,6 @@
-
-import { IoIosCloseCircleOutline } from 'react-icons/io'
 import { Navigation } from '../Navigation/Navigation'
 import * as S from './Sidebar.styled'
+import { IoCloseSharp } from 'react-icons/io5'
 
 type SidebarProps = {
     isOpen: boolean
@@ -16,11 +15,11 @@ export const Sidebar = ({ isOpen, closeSidebar }: SidebarProps) => {
                direction='column' 
                gap='1.5rem' 
                color='#f1f1f1' 
-               hoverColor=''
+               hovercolor=''
                />
 
             <S.CloseButton onClick={() => closeSidebar(false)}>
-            <IoIosCloseCircleOutline />
+              <IoCloseSharp />
             </S.CloseButton>
         </S.SidebarContainer>
     )

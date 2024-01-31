@@ -41,7 +41,7 @@ export const Header = () => {
                         direction='flex' 
                         gap='1.2rem' 
                         color='#222'
-                        hoverColor='#436eca' 
+                        hovercolor='#436eca' 
                     />
                  )}
                  <Sidebar isOpen={showMenuMobile} closeSidebar={setShowMenuMobile} />

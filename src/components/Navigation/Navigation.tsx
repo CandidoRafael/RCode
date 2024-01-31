@@ -4,16 +4,16 @@ type NavigationProps = {
     direction: string;
     gap: string;
     color: string;
-    hoverColor: string;
+    hovercolor: string;
 }
 
-export const Navigation = ({ direction, gap, color,hoverColor }: NavigationProps) => {
+export const Navigation = ({ direction, gap, color,hovercolor }: NavigationProps) => {
     return (
     <Menu 
      direction={direction} 
      gap={gap} 
      color={color}
-     hoverColor={hoverColor}
+     hovercolor={hovercolor}
      >
         <MenuItem> <a href="#Home">Home</a></MenuItem>
         <MenuItem> <a href="#solucoes">Soluções</a></MenuItem>

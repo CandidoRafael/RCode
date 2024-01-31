@@ -4,7 +4,7 @@ type MenuProps = {
     direction: string;
     gap: string;
     color: string;
-    hoverColor: string;
+    hovercolor: string;
 }
 
 export const Menu = styled.ul<MenuProps>`
@@ -23,7 +23,7 @@ export const Menu = styled.ul<MenuProps>`
 
     &:hover {
 
-      color: ${({ hoverColor }) => hoverColor};
+      color: ${({ hovercolor }) => hovercolor};
     }
     
   }

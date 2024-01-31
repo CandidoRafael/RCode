@@ -12,10 +12,9 @@ export const MainContainer = styled.main`
         flex-direction: row-reverse;
     }
 `
-
 export const TextContainer = styled.div`
    display: flex;
-   width: 70%;
+   width: 90%;
    padding: .2rem;
    gap: 1rem;
    flex-direction: column;

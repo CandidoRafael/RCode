@@ -26,7 +26,7 @@ export const Logo = styled.img`
 `;
 
 export const LogoMobile = styled.img`
-    width: 70px;
+    width: 55px;
     margin-left: .6rem;
 `
 

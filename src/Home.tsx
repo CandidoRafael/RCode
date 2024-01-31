@@ -1,17 +1,8 @@
 import { Header } from './components/Header/Header';
 import { Main } from './components/Main/Main';
 import { Services } from './components/Services/Services';
-
-// const AnimatedGif = () => {
-//     return (
-//       <Lottie 
-//         animationData={animationData}
-//         loop
-//         autoplay
-//         style={{ width: '300px' }}
-//       />
-//     )
-// }
+import { About } from './components/About/About';
+import { Portfolio } from './components/Portfolio/Portfolio';
 
 function Home() {
 
@@ -20,6 +11,8 @@ function Home() {
       <Header />
       <Main />
       <Services />
+      <About />
+      <Portfolio />
     </>
   );
 }

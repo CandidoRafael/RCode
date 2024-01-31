@@ -1,9 +1,8 @@
 import Lottie from "lottie-react"
-import animationData from '../../animations/RcodeAnimation.json'
-import { AnimationContainer } from "./AnimationGifMain.styled"
+import animationData from '../../utils/RcodeAnimation.json'
+import { AnimationContainer } from "./Animation.styled"
 
-export const AnimationGifMain = () => {
-
+export const Animation = () => {
 
     return (
     <AnimationContainer>

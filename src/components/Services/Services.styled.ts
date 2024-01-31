@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const ServicesContainer = styled.section`
     background-color:  #1F2029;
     margin-top: 3rem;
+    padding-bottom: 4rem;
     color: #fff;
     display: flex;
     flex-direction: column;

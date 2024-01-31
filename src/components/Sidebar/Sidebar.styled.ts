@@ -1,0 +1,26 @@
+import styled from "styled-components";
+
+export const SidebarContainer = styled.div`
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 1rem;
+  z-index: 1;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #2A4FA1;
+  box-shadow: rgba(50, 50, 105, 0.3) 0px 2px 5px 0px,
+    rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+`
+
+export const CloseButton = styled.button`
+    position: absolute;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    color: #f1f1f1;
+    font-size: 2rem;
+    top: 25px;
+    right: 12px;
+`

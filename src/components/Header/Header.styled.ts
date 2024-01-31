@@ -4,7 +4,12 @@ export const HeaderContainer = styled.header`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: .5rem;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  width: 100%;
+  background-color: #ffff;
+  padding: .2rem;
 
   @media(min-width: 668px) {
     justify-content: space-around;
@@ -12,7 +17,7 @@ export const HeaderContainer = styled.header`
   }
 `;
 
-export const  LogoContainer = styled.div``
+export const LogoContainer = styled.div``
 
 export const Logo = styled.img`
   width: 180px;

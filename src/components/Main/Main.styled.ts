@@ -4,11 +4,12 @@ export const MainContainer = styled.main`
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 5rem;
     flex-direction: column;
 
     @media (min-width: 820px) {
         width: 1200px;
-        margin: 1rem auto;
+        margin: 8rem auto;
         flex-direction: row-reverse;
     }
 `
@@ -28,6 +29,7 @@ export const TextContainer = styled.div`
 export const TitleMain = styled.h1`
     text-align: center;
     font-size: 2.1rem;
+   color: #253237;
 
     @media (min-width: 820px) {
         text-align: left;

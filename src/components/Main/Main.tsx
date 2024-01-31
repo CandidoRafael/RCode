@@ -10,7 +10,7 @@ export const Main = () => {
             <TextContainer>
             <TitleMain>
                 Somos especialistas no desenvolvimento de softwares 
-                e criações de <BlueText>sites.</BlueText>  
+                e criação de <BlueText>sites.</BlueText>  
             </TitleMain>
             <Subtitle>
               Tenha presença no mundo digital.

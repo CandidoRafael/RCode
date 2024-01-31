@@ -16,7 +16,7 @@ export const Navigation = ({ direction, gap, color,hovercolor }: NavigationProps
      hovercolor={hovercolor}
      >
         <MenuItem> <a href="#Home">Home</a></MenuItem>
-        <MenuItem> <a href="#solucoes">Soluções</a></MenuItem>
+        <MenuItem> <a href="#servicos">Serviços</a></MenuItem>
         <MenuItem> <a href="vantagens">Vantagens</a></MenuItem>
         <MenuItem> <a href="#portfolio">Portfólio</a></MenuItem>
         <MenuItem> <a href="#contato">Contato</a></MenuItem>

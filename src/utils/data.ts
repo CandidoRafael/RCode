@@ -7,6 +7,6 @@ type CarrosselProps = {
 
 export const dataCarrossel: CarrosselProps[] = [
     {id: 1, image: imageBarber},
-    {id: 2, image: ''},
-    {id: 3, image: ''}
+    {id: 2, image: imageBarber},
+    {id: 3, image: imageBarber}
 ]

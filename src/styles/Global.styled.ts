@@ -26,6 +26,6 @@ export const Button = styled.button`
     transition: .2s all linear;
 
     &:hover {
-        opacity: .9;
+        opacity: .86;
     }
 `

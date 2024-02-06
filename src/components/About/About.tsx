@@ -3,7 +3,7 @@ import imageAbout from '../../assets/ImageAbout.png'
 
 export const About = () => {
     return (
-        <AboutContainer>
+        <AboutContainer id="sobre">
             <ArticleImage>
               <img src={imageAbout} alt="" />
             </ArticleImage>

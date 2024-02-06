@@ -1,28 +1,25 @@
-
 import { SwiperSlide, Swiper } from "swiper/react"
 import { dataCarrossel } from "../../utils/data"
-
-const styleImage = {
-    width: '100%',
-    cursor: 'pointer'
-}
+import './SliderCarrossel.css'
 
 export const SliderCarrossel = () => {
     return (
-        <Swiper
-            slidesPerView={1}
-            pagination={{ clickable: true }}
-            navigation
-        >
-            {dataCarrossel.map((item) => (
-            <SwiperSlide key={item.id}>
-                <img 
-                src={item.image}
-                style={styleImage}
-                alt="Imagem de um computador apresentando projetos" 
-                />    
-            </SwiperSlide>
-            ))}
-        </Swiper>
+            <Swiper
+                slidesPerView={1}
+                pagination={{ clickable: true }}
+                navigation
+                className="swiperContainer"
+            >
+                {dataCarrossel.map((item) => (
+                <SwiperSlide key={item.id}>
+                    <img 
+                    src={item.image}
+                    alt="Imagem de um computador apresentando projetos" 
+                    />    
+                </SwiperSlide>
+                ))}
+            </Swiper>
+        
+   
     )
 }

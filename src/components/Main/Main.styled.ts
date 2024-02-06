@@ -5,6 +5,8 @@ export const MainContainer = styled.main`
     justify-content: center;
     align-items: center;
     margin-top: 5rem;
+    padding-bottom: 2rem;
+
     flex-direction: column;
 
     @media (min-width: 820px) {

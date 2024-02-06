@@ -2,8 +2,7 @@ import styled from "styled-components";
 
 export const ServicesContainer = styled.section`
     background-color:  #1F2029;
-    margin-top: 3rem;
-    padding-bottom: 4rem;
+    padding-bottom: 3rem;
     color: #fff;
     display: flex;
     flex-direction: column;
@@ -11,7 +10,7 @@ export const ServicesContainer = styled.section`
 `
 export const HeaderServices = styled.header`
     text-align: center;
-    margin-top: 3rem;
+    padding-top: 2rem;
     
     h1 {
         font-size: 2.1rem;

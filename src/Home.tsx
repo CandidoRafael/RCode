@@ -3,6 +3,7 @@ import { Main } from './components/Main/Main';
 import { Services } from './components/Services/Services';
 import { About } from './components/About/About';
 import { Portfolio } from './components/Portfolio/Portfolio';
+import { Contact } from './components/Contact/Contact';
 
 function Home() {
 
@@ -13,6 +14,7 @@ function Home() {
       <Services />
       <About />
       <Portfolio />
+      <Contact />
     </>
   );
 }

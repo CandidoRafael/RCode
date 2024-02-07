@@ -3,13 +3,13 @@ import { ContactContainer, SectionContact } from "./Contact.styled"
 
 export const Contact = () => {
     return (
-       <ContactContainer>
+       <ContactContainer id="contato">
         <header>
             <h1>Vamos trabalhar juntos.</h1>
             <Subtitle>Estamos disponiveis para trabalhar em seu projeto.</Subtitle>
         </header>
 
-        <SectionContact style={{ backgroundColor: '#DEDEDE' }}>
+        <SectionContact>
             <h2>Contato</h2>
             <p>Fale sobre seu projeto ou sua ideia. Responderemos em até 12 horas</p>
             <form>

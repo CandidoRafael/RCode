@@ -34,7 +34,7 @@ export const Header = () => {
                     <S.Bar />
                     <S.Bar />
                 </S.MenuHamburger>
-                 )}
+                )}
 
                  {!isMobile && (
                     <Navigation 
@@ -43,8 +43,11 @@ export const Header = () => {
                         color='#222'
                         hovercolor='#436eca' 
                     />
-                 )}
-                 <Sidebar isOpen={showMenuMobile} closeSidebar={setShowMenuMobile} />
+                  )}
+                 <Sidebar 
+                    isOpen={showMenuMobile} 
+                    closeSidebar={setShowMenuMobile} 
+                  />
         </S.HeaderContainer>
-    )
-}
+    );
+};

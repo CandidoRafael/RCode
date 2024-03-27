@@ -3,18 +3,30 @@ import { Subtitle } from "../../styles/Global.styled"
 import { HeaderServices, SectionServices, ServicesContainer } from "./Services.styled"
 import { FaCode } from "react-icons/fa"
 import { MdDesignServices } from "react-icons/md"
+import { fadeInBottomVariant } from "../../utils/Variants"
+import { motion } from "framer-motion"
 
 
 export const Services = () => {
 
     return (
         <ServicesContainer  id="servicos">
-           <HeaderServices>
+           <HeaderServices
+            // as={motion.header}
+            // variants={fadeInBottomVariant}
+            // initial='hidden'
+            // whileInView='visible'
+            >
                 <h1>Nossos Serviços</h1>
                 <Subtitle>Confira alguns de nossos serviços para seu negócio.</Subtitle>
            </HeaderServices>
 
-           <SectionServices>
+           <SectionServices
+            // as={motion.section}
+            // variants={fadeInBottomVariant}
+            // initial='hidden'
+            // whileInView='visible'
+           >
                 <article>
                     <HiOutlineComputerDesktop />
                     <div>

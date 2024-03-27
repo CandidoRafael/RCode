@@ -1,14 +1,26 @@
 import { AboutContainer, ArticleAbout, ArticleImage } from "./About.styled"
 import imageAbout from '../../assets/ImageAbout.png'
+import { motion } from "framer-motion"
+import { fadeInLeftVariant, fadeInRightVariant } from "../../utils/Variants"
 
 export const About = () => {
     return (
         <AboutContainer id="sobre">
-            <ArticleImage>
+            <ArticleImage
+            // as={motion.article}
+            // variants={fadeInLeftVariant}
+            // initial='hidden'
+            // whileInView='visible'
+            >
               <img src={imageAbout} alt="" />
             </ArticleImage>
 
-            <ArticleAbout>
+            <ArticleAbout
+                // as={motion.article}
+                // variants={fadeInRightVariant}
+                // initial='hidden'
+                // whileInView='visible'
+            >
                 <header>
                     <h2>Sobre</h2>
                 </header>

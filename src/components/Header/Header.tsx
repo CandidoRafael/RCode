@@ -39,8 +39,9 @@ export const Header = () => {
                  {!isMobile && (
                     <Navigation 
                         direction='flex' 
-                        gap='1.2rem' 
+                        gap='2.2rem' 
                         color='#222'
+                      
                         hovercolor='#436eca' 
                     />
                   )}

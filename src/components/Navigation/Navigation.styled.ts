@@ -30,7 +30,8 @@ export const Menu = styled.ul<MenuProps>`
  `;
 
 export const MenuItem = styled.li`
-  font-weight: 700;
+  font-weight: 500;
+  font-size: 1.05rem;
   cursor: pointer;
-
+  letter-spacing: .2px;
 `;

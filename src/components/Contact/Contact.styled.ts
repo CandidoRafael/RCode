@@ -57,6 +57,11 @@ export const SectionContact = styled.section`
         flex-direction: column;
         gap: 1rem;
 
+        span {
+            font-size: .7rem;
+            color: red;
+        }
+
         input {
             border: none;
             border: 1px solid transparent;

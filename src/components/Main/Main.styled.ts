@@ -6,8 +6,15 @@ export const MainContainer = styled.main`
     align-items: center;
     margin-top: 5rem;
     padding-bottom: 2rem;
-
     flex-direction: column;
+
+    a {
+        text-decoration: none;
+
+        button {
+            width: 100%;
+        }
+    }
 
     @media (min-width: 820px) {
         width: 1200px;
@@ -22,11 +29,15 @@ export const TextContainer = styled.div`
    gap: 1rem;
    flex-direction: column;
 
+   
+
    @media (min-width: 820px) {
      width: 50%;
      align-items: self-start;
+
+    
    }
-   `
+`
 
 export const TitleMain = styled.h1`
     text-align: center;

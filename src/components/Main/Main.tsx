@@ -2,12 +2,21 @@ import { IoIosSend } from "react-icons/io"
 import { BlueText, Button, Subtitle } from "../../styles/Global.styled"
 import { Animation } from "../Animation/Animation"
 import { MainContainer, TextContainer, TitleMain } from "./Main.styled"
+import { fadeInLeftVariant } from "../../utils/Variants"
+import { motion } from "framer-motion"
 
 export const Main = () => {
     return (
-        <MainContainer  >
+        <MainContainer
+        
+        >
             <Animation />
-            <TextContainer >
+            <TextContainer 
+              as={motion.main}
+              variants={fadeInLeftVariant}
+              initial='hidden'
+              whileInView='visible'
+            >
             <TitleMain>
                 Somos especialistas no desenvolvimento de softwares 
                 e criação de <BlueText>sites.</BlueText>  

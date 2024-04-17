@@ -1,4 +1,5 @@
 import imageBarber from '../assets/ProjetoBarbearia.png'
+import project from '../assets/project.png'
 
 type CarrosselProps = {
     id: number;
@@ -6,7 +7,7 @@ type CarrosselProps = {
 }
 
 export const dataCarrossel: CarrosselProps[] = [
-    {id: 1, image: imageBarber},
+    {id: 1, image: project},
     {id: 2, image: imageBarber},
-    {id: 3, image: imageBarber}
+    
 ]

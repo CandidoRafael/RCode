@@ -5,6 +5,7 @@ import { About } from './components/About/About';
 import { Portfolio } from './components/Portfolio/Portfolio';
 import { Contact } from './components/Contact/Contact';
 import { Footer } from './components/Footer/Footer';
+import { WhatsappButton } from './components/WhatsappButton';
 
 function Home() {
 
@@ -14,6 +15,7 @@ function Home() {
       <Main />
       <Services />
       <About />
+      <WhatsappButton />
       <Portfolio />
       <Contact />
       <Footer />

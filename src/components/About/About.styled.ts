@@ -19,6 +19,7 @@ export const ArticleImage = styled.article`
     display: flex;
     justify-content: center;
     padding-bottom: 1rem;
+ 
 
     img {
         width: 80%;

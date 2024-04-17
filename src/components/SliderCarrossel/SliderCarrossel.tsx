@@ -11,13 +11,19 @@ export const SliderCarrossel = () => {
                 className="swiperContainer"
             >
                 {dataCarrossel.map((item) => (
-                <SwiperSlide key={item.id}>
+                <SwiperSlide 
+                    key={item.id}
+                    draggable
+
+                >  
                     <img 
                     src={item.image}
                     alt="Imagem de um computador apresentando projetos" 
                     />    
+                    
                 </SwiperSlide>
                 ))}
+             
             </Swiper>
         
    

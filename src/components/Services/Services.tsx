@@ -6,57 +6,65 @@ import { MdDesignServices } from "react-icons/md"
 import { fadeInBottomVariant } from "../../utils/Variants"
 import { motion } from "framer-motion"
 
-
 export const Services = () => {
 
     return (
         <ServicesContainer  id="servicos">
            <HeaderServices
-            // as={motion.header}
-            // variants={fadeInBottomVariant}
-            // initial='hidden'
-            // whileInView='visible'
+            as={motion.header}
+            variants={fadeInBottomVariant}
+            initial='hidden'
+            whileInView='visible'
             >
                 <h1>Nossos Serviços</h1>
                 <Subtitle>Confira alguns de nossos serviços para seu negócio.</Subtitle>
            </HeaderServices>
 
-           <SectionServices
-            // as={motion.section}
-            // variants={fadeInBottomVariant}
-            // initial='hidden'
-            // whileInView='visible'
-           >
-                <article>
+           <SectionServices>
+                <motion.article
+                      variants={fadeInBottomVariant}
+                      initial='hidden'
+                      whileInView='visible'
+                >
                     <HiOutlineComputerDesktop />
                     <div>
                         <h3>Criação de Sites</h3>
                         <Subtitle>
-                            Lorem ipsum dolor sit amet consectetur adipisicing 
-                            elit. Fuga perferendis harum explicat ladt fuigi adple
+                            Desenvolvemos sites de alto padrão 
+                            com diversas tecnologias. 
+                            Também atendemos sites em WordPress
                         </Subtitle> 
                     </div>
-                </article>
-                <article>
+                </motion.article>
+                <motion.article
+                    variants={fadeInBottomVariant}
+                    initial='hidden'
+                    whileInView='visible'
+                >
                     <FaCode />
                     <div>
                         <h3>Desenvolvimento de Software</h3>
                         <Subtitle>
-                            Lorem ipsum dolor sit amet consectetur adipisicing 
-                            elit. Fuga perferendis harum explicat ladt fuigi adple
+                        Desenvolvemos softwares sob medida para potencializar 
+                        sua empresa, proporcionando eficiência e inovação.
                         </Subtitle> 
                     </div>
-                </article>
-                <article>
+                </motion.article>
+                <motion.article
+                    variants={fadeInBottomVariant}
+                    initial='hidden'
+                    whileInView='visible'
+                >
                     <MdDesignServices />
                     <div>
                         <h3>UX/UI Web Design</h3>
                         <Subtitle>
-                            Lorem ipsum dolor sit amet consectetur adipisicing 
-                            elit. Fuga perferendis harum explicat ladt fuigi adple
+                        Desenhamos experiências digitais intuitivas e envolventes, 
+                        unindo forma e função para criar designs impactantes 
+                        que cativam e encantam os usuários.
                         </Subtitle> 
                     </div>
-                </article>
+                </motion.article>
            </SectionServices>
         </ServicesContainer>
     )

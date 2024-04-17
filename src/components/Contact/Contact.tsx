@@ -1,7 +1,9 @@
 
+import { motion } from "framer-motion";
 import { Button, Subtitle } from "../../styles/Global.styled"
 import { ContactContainer, SectionContact } from "./Contact.styled"
 import { useHandleContact } from "./useHandleContact"
+import { fadeInBottomVariant } from "../../utils/Variants";
 
 export const Contact = () => {
 
@@ -16,12 +18,21 @@ export const Contact = () => {
 
     return (
        <ContactContainer id="contato">
-        <header>
+        <motion.header
+          variants={fadeInBottomVariant}
+          initial='hidden'
+          whileInView='visible'
+        >
             <h1>Vamos trabalhar juntos.</h1>
             <Subtitle>Estamos disponiveis para trabalhar em seu projeto.</Subtitle>
-        </header>
+        </motion.header>
 
-        <SectionContact>
+        <SectionContact
+            as={motion.section}
+             variants={fadeInBottomVariant}
+             initial='hidden'
+             whileInView='visible'
+        >
             <h2>Contato</h2>
             <p>Fale sobre seu projeto ou sua ideia. Responderemos em até 12 horas</p>
             <form onSubmit={handleSubmit(handleForm)}>
